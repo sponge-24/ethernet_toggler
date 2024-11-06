@@ -8,6 +8,8 @@
 - **Auto Start**: Configurable to launch at system startup using Task Scheduler.
 - **Admin Privileges**: The executable is set to run as an administrator to enable seamless toggling.
 
+![Ethernet Toggler](./ethernet_toggler.png)
+
 ## How It Works
 The application uses the `netsh` command-line tool to check the current status of the Ethernet adapter and toggle it accordingly:
 - If the adapter is connected, it disables the connection.
